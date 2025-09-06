@@ -1,0 +1,22 @@
+camera:
+  # Placeholder awal, akan diisi hasil dari calibration.py
+  fx: null      # focal length x
+  fy: null      # focal length y
+  cx: null      # principal point x
+  cy: null      # principal point y
+  k1: null      # distortion coefficients
+  k2: null
+  p1: null
+  p2: null
+  k3: null
+
+calibration:
+  chessboard_rows: 6        # jumlah inner corners (baris)
+  chessboard_cols: 9        # jumlah inner corners (kolom)
+  square_size: 0.025        # ukuran sisi kotak (meter)
+  images_path: "data/calib" # folder untuk gambar kalibrasi
+
+dataset:
+  train: "data/train/images"
+  val: "data/val/images"
+  test: "data/test/images"
