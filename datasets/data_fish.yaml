@@ -1,0 +1,6 @@
+path: .
+train: datasets/images/train
+val: datasets/images/val
+names:
+  0: ikan_mas
+  1: ikan_mujair
